@@ -1,8 +1,8 @@
-package com.github.fworks.propertiesgwt;
+package com.github.fworks.propertiesgwt.client;
 
 import com.google.gwt.junit.client.GWTTestCase;
 
-public class PropertiesGwt extends GWTTestCase {
+public class PropertiesGwtTest extends GWTTestCase {
 
   @Override
   public String getModuleName() {
@@ -11,7 +11,7 @@ public class PropertiesGwt extends GWTTestCase {
 
   public void testElement() {
     //
-    assertTrue(true);
+    assertTrue(false);
   }
 
 }

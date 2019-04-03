@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
   <inherits name='com.google.gwt.user.User'/>
+  <inherits name="elemental2.dom.Dom" />
   <entry-point class='com.github.fworks.propertiesgwt.client.PropertiesGwt' />
   <source path="client"></source>
 </module>
