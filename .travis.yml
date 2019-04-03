@@ -8,7 +8,7 @@ jobs:
     jdk: oraclejdk8
     #script: mvn -q verify -Pcheck-semantic-version -DskipTests=true
     script: "mvn install"
-    #after_success:
+    #after_success: 
     #- bash <(curl -s https://codecov.io/bash)
     
 branches:
