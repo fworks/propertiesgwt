@@ -1,5 +1,8 @@
 # propertiesgwt
-[![Build Status](https://travis-ci.org/fworks/propertiesgwt.svg?branch=master)](https://travis-ci.org/fworks/propertiesgwt)
+
+![Travis (.org) branch](https://img.shields.io/travis/fworks/propertiesgwt/master.svg)
+![Maven Central](https://img.shields.io/maven-central/v/com.github.fworks/propertiesgwt.svg)
+![GitHub](https://img.shields.io/github/license/fworks/propertiesgwt.svg)
 
 Simple properties file reader for GWT
 
