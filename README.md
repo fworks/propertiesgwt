@@ -2,6 +2,7 @@
 
 ![Travis (.org) branch](https://img.shields.io/travis/fworks/propertiesgwt/master.svg)
 ![Maven Central](https://img.shields.io/maven-central/v/com.github.fworks/propertiesgwt.svg)
+![Sonatype Nexus (Releases)](https://img.shields.io/nexus/r/https/oss.sonatype.org/com.github.fworks/propertiesgwt.svg)
 ![GitHub](https://img.shields.io/github/license/fworks/propertiesgwt.svg)
 
 Simple properties file reader for GWT
