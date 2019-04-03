@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.fworks</groupId>
 	<artifactId>propertiesgwt</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>Properties GWT</name>
@@ -37,9 +37,9 @@
 
 	<scm>
 		<!-- Required: source control information: -->
-		<connection>scm:git:https://github.com/fworks/screenfullgwt.git</connection>
-		<developerConnection>scm:git:https://github.com/fworks/screenfullgwt.git</developerConnection>
-		<url>http://github.com/fworks/screenfullgwt</url>
+		<connection>scm:git:https://github.com/fworks/propertiesgwt.git</connection>
+		<developerConnection>scm:git:https://github.com/fworks/propertiesgwt.git</developerConnection>
+		<url>http://github.com/fworks/propertiesgwt</url>
 		<tag>HEAD</tag>
 	</scm>
 
@@ -100,11 +100,11 @@
 			<version>4.11</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<dependency>
-  		<groupId>com.google.elemental2</groupId>
-  		<artifactId>elemental2-dom</artifactId>
-  		<version>1.0.0-RC1</version>
+			<groupId>com.google.elemental2</groupId>
+			<artifactId>elemental2-dom</artifactId>
+			<version>1.0.0-RC1</version>
 		</dependency>
 	</dependencies>
 
@@ -123,7 +123,7 @@
 				</includes>
 			</resource>
 		</resources>
-		
+
 		<plugins>
 			<!-- Required: source JAR -->
 			<plugin>
@@ -183,7 +183,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<moduleName>com.github.fworks.screenfullgwt.ScreenFullGWT</moduleName>
+					<moduleName>com.github.fworks.propertiesgwt.PropertiesGWT</moduleName>
 				</configuration>
 				<!-- <configuration> <failIfNoTests>true</failIfNoTests> <skipTests>false</skipTests> 
 					<testSourceDirectory>src/test/java</testSourceDirectory> </configuration> -->
@@ -236,6 +236,12 @@
 								<goals>
 									<goal>sign</goal>
 								</goals>
+								<configuration>
+									<gpgArguments>
+										<arg>--pinentry-mode</arg>
+										<arg>loopback</arg>
+									</gpgArguments>
+								</configuration>
 							</execution>
 						</executions>
 					</plugin>
